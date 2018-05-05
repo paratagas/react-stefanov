@@ -1,0 +1,11 @@
+# jetBrains IDE project files
+.idea
+
+# Node modules
+/node_modules/
+
+# Node modules in sub-folders
+*/node_modules/
+
+# logs
+npm-debug.log
