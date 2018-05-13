@@ -29,7 +29,8 @@ let Excel = React.createClass({
             data: this.props.initialData,
             sortby: null,
             descending: false,
-            edit: null // [row index, cell index]
+            edit: null, // [row index, cell index]
+            search: false
         };
     },
     _sort: function(e) {
